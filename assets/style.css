@@ -1,37 +1,75 @@
-#body {
-
-	background-image: url("C:\Users\New User\week-4-game\images\purple-wallpaper.jpg");
+body {
+	background-image: url("../images/background.jpg");
 }
 
-.header {
+h1{
 	background-color: orange;
 	color: white;
-	display: inline;
+	display:inline;
+	clear: both;
 	padding: 10px;
-	margin-bottom: 15px;
-	border: solid 1px #fff;
+	margin-bottom: 20px;
+	border: solid 1px #ddd;
 }
 
-#paragraph {
-	width: 100%;
-	max-width: 960px;
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
 }
 
-#scoreboard {
-	background-color: gray;
+#instructions {
+	background-color: #ffffcc;
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+#guessingNumber {
+	background-color: green;
 	float: left;
 	display: inline-block;
 	padding: 10px;
-	margin-top: 15px;
-	border: solid 1px #fff;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+#scoreboard {
+	background-color: #03A9F4;
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 1px #ddd
+
 }
 
 #crystals {
-	border: solid 1px #272525;
+	margin-top: 15px;
+	margin-bottom:26px;
+
 }
 
-#score {
-	background-color: #fff;
-	color: white;
-	border: solid 1px #eee;
+.crystalImage {
+	height: 111px;
+	border: solid 1px #272525;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#yts {
+	background: #009688;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd
 }
