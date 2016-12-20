@@ -1,0 +1,37 @@
+#body {
+
+	background-image: url("C:\Users\New User\week-4-game\images\purple-wallpaper.jpg");
+}
+
+.header {
+	background-color: orange;
+	color: white;
+	display: inline;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: solid 1px #fff;
+}
+
+#paragraph {
+	width: 100%;
+	max-width: 960px;
+}
+
+#scoreboard {
+	background-color: gray;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 15px;
+	border: solid 1px #fff;
+}
+
+#crystals {
+	border: solid 1px #272525;
+}
+
+#score {
+	background-color: #fff;
+	color: white;
+	border: solid 1px #eee;
+}
